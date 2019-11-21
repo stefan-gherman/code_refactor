@@ -1,17 +1,13 @@
 import math
 import random
 
+NUMBERS_IN_LIST = 10
+
 numbers_up_to_99 = []
-numbers_up_to_99.append(random.randint(1, 99))
-numbers_up_to_99.append(random.randint(1, 99))
-numbers_up_to_99.append(random.randint(1, 99))
-numbers_up_to_99.append(random.randint(1, 99))
-numbers_up_to_99.append(random.randint(1, 99))
-numbers_up_to_99.append(random.randint(1, 99))
-numbers_up_to_99.append(random.randint(1, 99))
-numbers_up_to_99.append(random.randint(1, 99))
-numbers_up_to_99.append(random.randint(1, 99))
-numbers_up_to_99.append(random.randint(1, 99))
+
+for number in range(NUMBERS_IN_LIST):
+    numbers_up_to_99.append(random.randint(1, 99))
+
 
 for index in range(10):
     guess = int(input("Enter an integer from 1 to 99: "))
@@ -27,16 +23,8 @@ for index in range(10):
     print("you guessed it!")
 
 numbers_up_to_49 = []
-numbers_up_to_49.append(random.randint(1, 49))
-numbers_up_to_49.append(random.randint(1, 49))
-numbers_up_to_49.append(random.randint(1, 49))
-numbers_up_to_49.append(random.randint(1, 49))
-numbers_up_to_49.append(random.randint(1, 49))
-numbers_up_to_49.append(random.randint(1, 49))
-numbers_up_to_49.append(random.randint(1, 49))
-numbers_up_to_49.append(random.randint(1, 49))
-numbers_up_to_49.append(random.randint(1, 49))
-numbers_up_to_49.append(random.randint(1, 49))
+for number in range(NUMBERS_IN_LIST):
+    numbers_up_to_49.append(random.randint(1, 49))
 
 for index in range(10):
     guess = int(input("Enter an integer from 1 to 49: "))
