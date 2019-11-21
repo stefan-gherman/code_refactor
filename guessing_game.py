@@ -1,4 +1,3 @@
-import math
 import random
 
 NUMBERS_IN_LIST = 10
